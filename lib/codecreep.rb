@@ -11,7 +11,8 @@ module Codecreep
   class App
     def initialize
       @github = Github.new
-    end
+      @current_name = nil
+  end
   end
 end
 
